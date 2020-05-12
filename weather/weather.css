@@ -5,7 +5,7 @@
   }
   
   body{
-      background-image: url("C:/Users/harsh/OneDrive/Desktop/weather/website.png");
+      background-image: url("E:/WEATHER/weather/website.png");
       background-repeat: no-repeat;
       background-size: cover;
       height: 100%;
@@ -20,29 +20,31 @@
   
   input[type="submit"]{
     padding: 15px 30px;
-    background:cornsilk;
+    background:#21bfb869;
     border: none;
-    border-radius: 1px;
+    border-radius: 2px;
     font-family: "Nunito",sans-serif;
     font-weight:bold;
     font-size: 20px;
+    box-shadow: 0px -5px 17px 6px black;
+    cursor: pointer;
+    margin-left:4px;
+    margin-top:4px;
   }
   
   .input input[type="text"]{
     width: 600px;
     height: 55px;
     padding: 5px 10px;
-    background: cornsilk;
+    background: #090c0f1c;
     border: none;
-    border-radius: 1px;
+    border-radius: 2px;
     font-family: "Nunito",sans-serif;
     font-weight:bold;
     font-size: 20px;
+    box-shadow: 0px -5px 17px 6px black;
   }
-  
-  
-  
-  
+
   .close{
     float: right;
     margin-top: -2px;
@@ -52,8 +54,10 @@
   
   .card h1{
     padding: 5px 0;
+    margin-top: auto;
     text-align: center;
     color: cornsilk;
+    position:relative;
   }
   
   .card p{
@@ -61,4 +65,16 @@
     margin:40px 0;
     font-size:20px;
     color: cornsilk;
-  }
+    position:relative;
+    }
+
+.card{
+
+    position:absolute;
+    margin-top:55px;
+    margin-left:620px;
+    height:200px;
+    width:250px;
+
+
+}
